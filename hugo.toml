@@ -1,0 +1,7 @@
+baseURL = 'https://ttn-lab.github.io/'
+languageCode = 'en-us'
+title = 'Time-based Technologies and Networks Lab'
+
+[module]
+  [[module.imports]]
+    path = 'github.com/willfaught/paige'
