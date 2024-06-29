@@ -1,7 +1,28 @@
-baseURL = 'https://ttn-lab.github.io/'
+baseURL = 'https://ttn-lab.github.io'
+copyright = "© TTN Lab"
+enablerobotstxt = true
 languageCode = 'en-us'
-title = 'Time-based Technologies and Networks Lab'
+timeZone = 'Europe/Madrid'
 
-[module]
-  [[module.imports]]
-    path = 'github.com/willfaught/paige'
+[languages.en]
+title = "TTN Lab"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 20
+
+[[module.imports]]
+path = 'github.com/willfaught/paige'
+
+[params.paige]
+site_description = "Developing technologies that make the world tick"
+site_title = "Time-based Technologies and Networks Lab"
