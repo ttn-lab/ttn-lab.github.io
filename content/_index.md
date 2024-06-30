@@ -1,16 +1,5 @@
 +++
-title = "TTN Lab"
-[paige]
-style = """
-#paige-collections,
-#paige-metadata,
-#paige-sections,
-#paige-pages {
-    display: none;
-}
-"""
-[paige.search]
-hide_page = true
+title = "Time-based Technologies and Networks Lab"
 +++
 
 {{< paige/image alt="Landscape"
